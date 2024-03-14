@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #E0E0E0;
+}
+
+.top {
+    height: 70px;
+    background-color: white;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.headTitle{
+    margin:0;
+}
+
+.publicaciones {
+    width: 100%;
+    text-align: center;
+}
+/* p{
+    margin:0;
+} */
+
+div[class*='post'] {
+    width: 80%; /* O ajusta el ancho según tus necesidades */
+    max-width: 600px; /* Limita el ancho máximo para que no se vuelva demasiado ancho en pantallas grandes */
+    background-color: white;
+    margin: 20px auto; /* Centra verticalmente y aplica margen horizontal */
+    margin-bottom: 50px; /* Agrega espacio entre cada publicación */
+    margin-top: 50px; /* Agrega espacio entre cada publicación */
+    box-sizing: border-box; /* Incluye el padding y el border en el ancho total */
+}
+
+.containerTitle{
+    width: 50%;
+    text-align: left;
+    margin-left: 15px;
+}
+.containerPagination{
+    width: 50%;
+    text-align: right;
+    margin-right: 15px;
+}
+
+.footerPublication {
+    height: 30%;
+    background-color: white;
+    padding: 10px; /* Añade espacio alrededor del contenido */
+}
+
+.footerPublication p {
+    margin: 0; /* Elimina el margen predeterminado del párrafo */
+    text-align: left; /* Alinea el texto a la izquierda */
+}
+.headerPublication{
+    height: 20%;
+    background-color: white;
+    display: flex;
+}
+
+.img{
+    height: 50%;
+    
+}
+
+.img img {
+    width:100%;
+    height:auto;
+}
